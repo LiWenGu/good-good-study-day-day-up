@@ -10,3 +10,28 @@ Limiting the number of connections can be required when using connection limits 
 Does this make sense?
 
 来源：https://github.com/spring-projects/spring-session/issues/789
+
+2. CompletableFuture
+
+片段：
+两个线程同时执行后，对这两个线程结果进行操作  
+```java
+String result = CompletableFuture.supplyAsync(() -> {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "Hello";
+    }).thenCombine(CompletableFuture.supplyAsync(() -> {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "world";
+    }), (s1, s2) -> s1 + " " + s2).join();
+System.out.println(result);
+```
+
+来源：https://www.cnblogs.com/happyliu/archive/2018/08/12/9462703.html
