@@ -13,3 +13,11 @@
 >Affects: 8.5.0 to 8.5.40
 
 来源：https://tomcat.apache.org/security-8.html
+
+# 06.25
+
+## Springboot 2.0选择HikariCP作为默认数据库连接池的五大理由
+
+>![](https://github.com/brettwooldridge/HikariCP/wiki/HikariCP-bench-2.6.0.png)
+
+来源：http://blog.didispace.com/Springboot-2-0-HikariCP-default-reason/
