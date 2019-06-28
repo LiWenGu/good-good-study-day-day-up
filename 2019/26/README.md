@@ -35,3 +35,11 @@
 >RateLimiter使用的是一种叫令牌桶的流控算法，RateLimiter会按照一定的频率往桶里扔令牌，线程拿到令牌才能执行，比如你希望自己的应用程序QPS不要超过1000，那么RateLimiter设置1000的速率后，就会每秒往桶里扔1000个令牌。
 
 来源：http://ifeve.com/guava-ratelimiter/
+
+# 06.28
+
+## 《http2讲解》
+
+>几乎所有互联网上的内容都采用了HTTP 1.1作为通信协议。人们在该协议上投入了大量精力，所以基于它的基础架构也得以日臻完善。而得益于此，在现有的HTTP协议之上构建新的方案会比从底层建立新的协议要容易得多。
+
+来源：https://ye11ow.gitbooks.io/http2-explained/content/
