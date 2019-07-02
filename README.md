@@ -20,3 +20,7 @@ Apache Tomcat 相关漏洞
 4. Guava官方文档-RateLimiter类
 
 5. 《http2讲解》
+
+## 27
+
+1. Java魔法类：Unsafe应用解析
