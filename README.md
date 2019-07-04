@@ -24,3 +24,7 @@ Apache Tomcat 相关漏洞
 ## 27
 
 1. Java魔法类：Unsafe应用解析
+
+2. 寻找一种易于理解的一致性算法（扩展版）(Raft论文中文翻译版)
+
+3. 从一次 Snowflake 异常说起
